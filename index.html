@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <title>Μπάλα & Ταινία Pro App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Intro Screen -->
+    <div id="intro">
+        <h1>Καλώς ήρθες!</h1>
+        <button id="startBtn">Συνέχεια</button>
+    </div>
+
+    <!-- Header με προφίλ -->
+    <header>
+        <div id="profile">
+            <img src="profile-icon.png" alt="Profile" id="profileBtn">
+            <span id="profileName"></span>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container" id="mainContent">
+        <div class="card" id="football">
+            <img src="football.jpg" alt="Μπάλα">
+            <h2>⚽ Μπάλα</h2>
+        </div>
+        <div class="card" id="movie">
+            <img src="movie.jpg" alt="Ταινία">
+            <h2>🎬 Ταινία</h2>
+        </div>
+    </div>
+
+    <!-- Modal Login/Register -->
+    <div id="modal">
+        <div class="modal-content">
+            <span id="close">&times;</span>
+            <h2>Σύνδεση / Εγγραφή</h2>
+            <input type="email" id="email" placeholder="Email">
+            <input type="password" id="password" placeholder="Κωδικός">
+            <button id="loginBtn">Login</button>
+            <button id="registerBtn">Εγγραφή</button>
+            <hr>
+            <button id="googleBtn">Σύνδεση με Google</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
